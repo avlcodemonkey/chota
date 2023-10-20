@@ -1,18 +1,18 @@
 :root {
-  --bg-color: #fff;
-  --bg-secondary-color: #f3f3f6;
-  --color-primary: #14854f;
-  --color-lightGrey: #d2d6dd;
-  --color-grey: #747681;
-  --color-darkGrey: #3f4144;
-  --color-error: #d43939;
-  --color-success: #28bd14;
-  --grid-maxWidth: 120rem;
-  --grid-gutter: 2rem;
-  --font-size: 1.6rem;
-  --font-color: #333;
-  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+    --bg-color: #fff;
+    --bg-secondary-color: #f3f3f6;
+    --color-primary: #14854f;
+    --color-light-grey: #d2d6dd;
+    --color-grey: #747681;
+    --color-dark-grey: #3f4144;
+    --color-error: #d43939;
+    --color-success: #28bd14;
+    --grid-max-width: 120rem;
+    --grid-gutter: 2rem;
+    --font-size: 1.6rem;
+    --font-color: #333;
     --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 }
 
 html {
@@ -90,9 +90,9 @@ p {
 }
 
 blockquote {
-  background-color: var(--bg-secondary-color);
-  padding: 1.5rem 2rem;
-  border-left: 3px solid var(--color-lightGrey);
+    background-color: var(--bg-secondary-color);
+    padding: 1.5rem 2rem;
+    border-left: 3px solid var(--color-light-grey);
 }
 
 dl dt {
@@ -100,10 +100,10 @@ dl dt {
 }
 
 hr {
-  border: none;
-  background-color: var(--color-lightGrey);
-  height: 1px;
-  margin: 1rem 0;
+    border: none;
+    background-color: var(--color-light-grey);
+    height: 1px;
+    margin: 1rem 0;
 }
 
 table {
@@ -125,11 +125,11 @@ th {
 }
 
 thead {
-  border-bottom: 2px solid var(--color-lightGrey);
+    border-bottom: 2px solid var(--color-light-grey);
 }
 
 tfoot {
-  border-top: 2px solid var(--color-lightGrey);
+    border-top: 2px solid var(--color-light-grey);
 }
 
 code,
@@ -173,7 +173,7 @@ img {
 }
 
 fieldset {
-  border: 1px solid var(--color-lightGrey);
+    border: 1px solid var(--color-light-grey);
 }
 
 iframe {

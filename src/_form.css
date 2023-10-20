@@ -12,14 +12,14 @@ input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [t
 select,
 textarea,
 textarea[type="text"] {
-  font-family: inherit;
-  padding: 0.8rem 1rem;
-  border-radius: 4px;
-  border: 1px solid var(--color-lightGrey);
-  font-size: 1em;
-  transition: all 0.2s ease;
-  display: block;
-  width: 100%;
+    font-family: inherit;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-light-grey);
+    font-size: 1em;
+    transition: all 0.2s ease;
+    display: block;
+    width: 100%;
 }
 
 select {
@@ -35,19 +35,19 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  padding: 1rem 2.5rem;
-  color: var(--color-darkGrey);
-  background: var(--color-lightGrey);
-  border-radius: 4px;
-  border: 1px solid transparent;
-  font-size: var(--font-size);
-  line-height: 1;
-  text-align: center;
-  transition: opacity 0.2s ease;
-  text-decoration: none;
-  transform: scale(1);
-  display: inline-block;
-  cursor: pointer;
+    padding: 1rem 2.5rem;
+    color: var(--color-dark-grey);
+    background: var(--color-light-grey);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: var(--font-size);
+    line-height: 1;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+    transform: scale(1);
+    display: inline-block;
+    cursor: pointer;
 }
 
 .button.primary,
@@ -143,7 +143,7 @@ textarea.success {
 }
 
 .button.dark {
-  background-color: var(--color-darkGrey);
+    background-color: var(--color-dark-grey);
 }
 
 .button.error {
@@ -155,8 +155,8 @@ textarea.success {
 }
 
 .button.outline {
-  background-color: transparent;
-  border-color: var(--color-lightGrey);
+    background-color: transparent;
+    border-color: var(--color-light-grey);
 }
 
 .button.outline.primary {
@@ -169,10 +169,10 @@ textarea.success {
   color: var(--color-grey);
 }
 
-.button.outline.dark {
-  border-color: var(--color-darkGrey);
-  color: var(--color-darkGrey);
-}
+    .button.outline.dark {
+        border-color: var(--color-dark-grey);
+        color: var(--color-dark-grey);
+    }
 
 .button.clear {
   background-color: transparent;
