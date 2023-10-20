@@ -11,10 +11,6 @@
     background-color: var(--color-dark-grey) !important;
 }
 
-.bg-grey {
-  background-color: var(--color-grey) !important;
-}
-
 .bg-error {
   background-color: var(--color-error) !important;
 }
@@ -35,10 +31,6 @@
     border: 1px solid var(--color-dark-grey) !important;
 }
 
-.bd-grey {
-  border: 1px solid var(--color-grey) !important;
-}
-
 .bd-error {
   border: 1px solid var(--color-error) !important;
 }
@@ -57,10 +49,6 @@
 
 .text-dark {
     color: var(--color-dark-grey) !important;
-}
-
-.text-grey {
-  color: var(--color-grey) !important;
 }
 
 .text-error {

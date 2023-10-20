@@ -104,7 +104,7 @@ input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [t
 select:hover,
 textarea:hover,
 textarea[type="text"]:hover {
-  border-color: var(--color-grey);
+  border-color: var(--color-light-grey);
 }
 
 input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]):focus,
@@ -139,7 +139,7 @@ textarea.success {
 }
 
 .button.secondary {
-  background-color: var(--color-grey);
+    background-color: var(--color-light-grey);
 }
 
 .button.dark {
@@ -164,10 +164,10 @@ textarea.success {
   color: var(--color-primary);
 }
 
-.button.outline.secondary {
-  border-color: var(--color-grey);
-  color: var(--color-grey);
-}
+    .button.outline.secondary {
+        border-color: var(--color-light-grey);
+        color: var(--color-dark-grey);
+    }
 
     .button.outline.dark {
         border-color: var(--color-dark-grey);
