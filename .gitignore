@@ -107,3 +107,5 @@ typings/
 .vscode
 
 _site
+
+.vs/
