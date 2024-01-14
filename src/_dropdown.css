@@ -8,4 +8,7 @@ details.dropdown > :last-child {
     left: 0;
     white-space: nowrap;
 }
+
+details summary {
+    cursor: pointer;
 }
