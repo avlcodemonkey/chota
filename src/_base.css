@@ -178,4 +178,14 @@ iframe {
     border: 0;
 }
 
+dialog {
+    border: none;
+    box-shadow: #00000029 2px 2px 5px 0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+dialog::backdrop {
+    background: rgba(0 0 0 / 50%);
 }
