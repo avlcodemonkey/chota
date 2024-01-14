@@ -10,31 +10,31 @@
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
     --font-color: #333;
-    --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-family-sans: -apple-system, blinkmacsystemfont, "Segoe UI", "Noto Sans", helvetica, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 }
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  line-height: 1.15;
-  text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.15;
+    text-size-adjust: 100%;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  background-color: var(--bg-color);
-  line-height: 1.6;
-  font-size: var(--font-size);
-  color: var(--font-color);
-  font-family: var(--font-family-sans);
-  margin: 0;
-  padding: 0;
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    font-size: var(--font-size);
+    color: var(--font-color);
+    font-family: var(--font-family-sans);
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -43,49 +43,49 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
-  margin: 0.35em 0 0.7em;
+    font-weight: 500;
+    margin: 0.35em 0 0.7em;
 }
 
 h1 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 h2 {
-  font-size: 1.75em;
+    font-size: 1.75em;
 }
 
 h3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 h4 {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 h5 {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 h6 {
-  font-size: 0.85em;
+    font-size: 0.85em;
 }
 
 a {
-  color: var(--color-primary);
-  text-decoration: none;
+    color: var(--color-primary);
+    text-decoration: none;
 }
 
 a:hover:not(.button) {
-  opacity: 0.75;
+    opacity: 0.75;
 }
 
 button {
-  font-family: inherit;
+    font-family: inherit;
 }
 
 p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 blockquote {
@@ -95,7 +95,7 @@ blockquote {
 }
 
 dl dt {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 hr {
@@ -106,21 +106,21 @@ hr {
 }
 
 table {
-  width: 100%;
-  border: none;
-  border-collapse: collapse;
-  border-spacing: 0;
-  text-align: left;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
 }
 
 table.striped tr:nth-of-type(2n) {
-  background-color: var(--bg-secondary-color);
+    background-color: var(--bg-secondary-color);
 }
 
 td,
 th {
-  vertical-align: middle;
-  padding: 1.2rem 0.4rem;
+    vertical-align: middle;
+    padding: 1.2rem 0.4rem;
 }
 
 thead {
@@ -136,39 +136,39 @@ kbd,
 pre,
 samp,
 tt {
-  font-family: var(--font-family-mono);
+    font-family: var(--font-family-mono);
 }
 
 code,
 kbd {
-  font-size: 90%;
-  white-space: pre-wrap;
-  border-radius: 4px;
-  padding: 0.2em 0.4em;
-  background-color: var(--bg-secondary-color);
-  color: var(--color-error);
+    font-size: 90%;
+    white-space: pre-wrap;
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+    background-color: var(--bg-secondary-color);
+    color: var(--color-error);
 }
 
 pre {
-  background-color: var(--bg-secondary-color);
-  font-size: 1em;
-  padding: 1rem;
-  overflow-x: auto;
+    background-color: var(--bg-secondary-color);
+    font-size: 1em;
+    padding: 1rem;
+    overflow-x: auto;
 }
 
 pre code {
-  background: none;
-  padding: 0;
+    background: none;
+    padding: 0;
 }
 
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 fieldset {
@@ -176,5 +176,7 @@ fieldset {
 }
 
 iframe {
-  border: 0;
+    border: 0;
+}
+
 }

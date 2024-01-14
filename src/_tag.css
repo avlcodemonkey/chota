@@ -9,15 +9,15 @@
 }
 
 .tag.is-small {
-  padding: 0.4rem;
-  font-size: 0.75em;
+    padding: 0.4rem;
+    font-size: 0.75em;
 }
 
 .tag.is-large {
-  padding: 0.7rem;
-  font-size: 1.125em;
+    padding: 0.7rem;
+    font-size: 1.125em;
 }
 
 .tag + .tag {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
