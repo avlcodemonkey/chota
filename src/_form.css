@@ -13,7 +13,7 @@ select,
 textarea,
 textarea[type="text"] {
     font-family: inherit;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     border: 1px solid var(--color-light-grey);
     font-size: 1em;
