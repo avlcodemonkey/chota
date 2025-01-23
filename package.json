@@ -27,7 +27,7 @@
         "autoprefixer": "10.4.8",
         "cross-env": "7.0.2",
         "cssnano": "5.1.13",
-        "postcss": "8.4.16",
+        "postcss": "8.5.1",
         "postcss-banner": "4.0.1",
         "postcss-cli": "10.0.0",
         "postcss-csso": "6.0.1",
